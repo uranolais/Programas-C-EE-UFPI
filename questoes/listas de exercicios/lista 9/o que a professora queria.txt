@@ -1,0 +1,37 @@
+revisao			
+Implementar a função cadastrar!
+/*
+Objetivo: Cadastrar 1 aluno.
+Parâmetros: aluno - conjunto de alunos cadastrados ("referência")
+            cont - quantidade de alunos cadastrados
+Retorno: Quantidade de alunos cadastrados após o cadastro com sucesso ou não do aluno.
+Obs.: O conjunto de alunos está armazenado em um vetor indicado por aluno, cada aluno deve ser cadastrado depois do último já cadastrado. Não haverá sucesso no cadastro do aluno se o vetor já estiver cheio ou o aluno já tenha sido cadastrado anteriormente(não pode haver dois alunos com o mesmo cpf cadastrados!)
+*/
+Implementar a função pesquisar!
+/*
+Objetivo: Pesquisar 1 aluno pelo cpf
+Parâmetros: aluno - conjunto de alunos cadastrados ("referência")
+            cont - quantidade de alunos cadastrados
+            cpf - numero do cpf do aluno a ser pesquisado
+Retorno: índice do aluno no vetor, caso seja encontrado
+         -1, caso o aluno não seja encontrado
+*/
+Implementar a função imprimir!
+/*
+Objetivo: Imprimir os dados de um determinado aluno
+Parâmetros: al(tipo TAluno) - informações do aluno que serão impressas
+*/
+Implementar a função excluir!
+/*
+Objetivo: Excluir 1 aluno.
+Parâmetros: aluno - conjunto de alunos cadastrados ("referência")
+            cont - quantidade de alunos cadastrados
+Retorno: Quantidade de alunos cadastrados após o exclusão com sucesso ou não do aluno.
+Obs.: O conjunto de alunos está armazenado em um vetor indicado por aluno, cada aluno deve ser cadastrado depois do último já cadastrado. Não haverá sucesso no exlusão do aluno caso não seja encontrado o aluno a ser excluido (busca pelo cpf) no conjunto. ATENÇÃO: Ao exluir um aluno, os alunos que foram cadastrados depois dele no vetor, devem retroceder uma posição para que não haja buranco no vetor, ou seja, elemento do vetor entre os cadastrados com dados de alunos não cadastrados.
+*/
+Implementar a função listarTodos!
+/*
+Objetivo: Imprimir os dados de todos os alunos cadastrados.
+Parâmetros: aluno - conjunto de alunos cadastrados ("referência")
+            cont - quantidade de alunos cadastrados
+*/
